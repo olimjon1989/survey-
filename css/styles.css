@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+label {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+form {
+  background-color: #abf0e9;
+  padding: 40px;
+}
+
+input {
+  display: block;
+}

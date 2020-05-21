@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Tell me about your interest</h1>
+    <p id="description">This survey is about to know your interest in order to teach you effectively</p>
+    <form id="survey-form">
+    <label id="name-label">Name:</label>
+     <input type="text" name="name" id="name" required placeholder="First name"><br>
+    <label id="email-label">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="email"><br>
+    <label id="number-label">Number:</label>
+      <input type="number" name="number" id="number" min="0" max="10" required placeholder="$"><br>
+
+
+      <select name="Interest" id="dropdown">
+        <option value="readin books">Reading books</option>
+        <option value="listening to music">Listening to music</option>
+        <option value="watching videos">Watching videos</option>
+        <option value="playing games">Playing games</option>
+      </select>
+
+<br>
+<input type="radio" class="radio-inline" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" class="radio-inline" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" class="radio-inline" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br>
+
+<input type="checkbox" id="item1" name="item1" value="TV">
+<label for="item1"> I have a TV</label><br>
+<input type="checkbox" id="item2" name="item2" value="Mobilephone">
+<label for="item2"> I have a Mobilephone</label><br>
+<input type="checkbox" id="item3" name="item3" value="Computer">
+<label for="item3"> I have a Computer</label><br>
+
+<textarea placeholder="Additional comments"></textarea>
+
+     <input type="submit" id="submit">
+    </form>
+    <script <source src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">></script>
+  </body>
+</html>
